@@ -1,14 +1,4 @@
-# ECE650 : Assignment 4
-
-Replace FIRST_NAME, LAST_NAME, WATIAM, and STUDENT_ID, EMAIL in
-`user.yml` by your first and last name, WatIAM id, student number, and
-email, respectively. Whenever possible, please use ASCII characters.
-
-Do not change the format `user.yml`. We will parse it
-automatically. Only enter the information requested.
-
-The main file for your solution to the assignment should be
-`ece650-a4.cpp`. You can use `test.cpp` for your unit tests.
+# Vertex-Cover using CNF-SAT solver
 
 You will need to checkout minisat to the main directory of the project.
 You can do this using
@@ -17,8 +7,11 @@ You can do this using
 git clone https://github.com/agurfinkel/minisat
 ```
 
-
 You might need to modify `CMakeLists.txt` if you are adding additional
 source files for your code and/or tests.
 
-Commit your changes and submit on GitHub.
+Here, we solve the minimal Vertex Cover problem for the input graph. My approch is based on a polynomial-time reduction to CNF-SAT solver.
+
+As mentioned before you should use aCMakeLists.txt le to build your project.  We will build your project using the following sequence:
+
+cd a4 && mkdir build && cd build && cmake .
