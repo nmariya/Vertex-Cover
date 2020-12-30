@@ -13,7 +13,7 @@ add "Davenport Road" (1,4) (5,8)
 gg
 
 # Commands
-•add is used to add a street.  It is speci ed as:  \add "Street Name" (x1,y1) (x2,y2). . .(xn,yn)".  Each(xi,yi)is a GPS coordinate.  We interpret the coordinates as a poly-line segment.That is, we draw a line segment from(xi,yi)to(xi+1,yi+1).  You are allowed to assume thateachxiandyiis an integer.  (Note, however, that the coordinates of an intersection may notbe integers.)
-•mod is used to modify the speci cation of a street.  Its format is the same as foradd.  It is anew speci cation for a street you've speci ed before.
+•add is used to add a street.  It is specifed as:  \add "Street Name" (x1,y1) (x2,y2). . .(xn,yn)".  Each(xi,yi)is a GPS coordinate.  We interpret the coordinates as a poly-line segment.That is, we draw a line segment from(xi,yi)to(xi+1,yi+1).  You are allowed to assume that each xi and yi is an integer.  (Note, however, that the coordinates of an intersection may not be integers.)
+•mod is used to modify the specifcation of a street.  Its format is the same as for add.  It is a new specifcation for a street you've specifed before.
 •rm is used to remove a street.  It is speci ed as \rm "Street Name"".
-•ggc auses the program to output the corresponding graph
+•gg causes the program to output the corresponding graph
