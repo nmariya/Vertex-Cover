@@ -1,16 +1,7 @@
-# ECE650 : Assignment 3
+# Inter-Process Communication
 
-Replace FIRST_NAME, LAST_NAME, WATIAM, and STUDENT_ID, EMAIL in
-`user.yml` by your first and last name, WatIAM id, student number, and
-email, respectively. Whenever possible, please use ASCII characters.
+IPC.cpp is the driver program that uses the Inter-Process Communication (IPC) to link the output of the random input generator (rgen.cpp) to the input of the python script and the output of the python script to the input of the Shortest_path.cpp so that we create a pipeline, where each code communicates with th4e other.
 
-Do not change the format `user.yml`. We will parse it
-automatically. Only enter the information requested.
+Follow the CMake instruction sequence to execute the code:
 
-The main file for your solution to the assignment should be
-`ece650-a3.cpp`. You can use `test.cpp` for your unit tests.
-
-You might need to modify `CMakeLists.txt` if you are adding additional
-source files for your code and/or tests.
-
-Commit your changes and submit on GitLab.
+cd a3 && mkdir build && cd build && cmake ../ && make install
