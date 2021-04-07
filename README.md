@@ -11,6 +11,8 @@ The minimum vertex cover is an optimization problem and it can be solved in poly
 </p>
 
 
+![alt text](https://github.com/nmariya/Vertex-Cover/blob/master/images/minimum%20vertex%20cover.jpg)
+
 ## Getting Started
 1. Install [CMake](https://cmake.org/download/) to build the executable file. 
 2. You also need the Minisat SAT solver. It is available in this [repository](https://github.com/agurfinkel/minisat)
