@@ -29,10 +29,14 @@ We have conducted a detailed analysis on the running time and approximate ratio 
 We can compare the running time trends of APPROX-VC-1 and APPROX-VC-2. Both of them compute the results in far less time than CNF-SAT-VC, especially as V increases. APPROX-VC-1 takes more time because the algorithm searches for vertex with highest degree whereas APPROX-VC-2 has no conditions and randomly picks up the edges to add to the vertex cover. Hence time complexity of former is more than the latter.
 <p align="center">
 <img src="https://github.com/nmariya/Vertex-Cover/blob/master/images/Running%20Time%20Analysis%20Set%20S2.jpg">
-  
+</p>
+
+
 ##### Approximate Ratio Analysis
 *Approximate ratio* is defined as the ratio of the size of computed vertex to the size of minimum sized vertex for the same graph. We know that CNF-SAT-VC computes the minimum sized or the optimum sized vertex cover, though not necessarily unique. So we find the approximate ratio of each algorithm with respect to the CNF-SAT-VC output. The approximate ratio of CNF-SAT-VC is 1, hence closer the approximate ratio of the approximate algorithms to 1, more optimum the result. The approximate ratio is inversely proportional to the correctness of the result i.e. greater the approximate ratio gives more inaccurate vertex cover.
 <p align="center">
 <img src="https://github.com/nmariya/Vertex-Cover/blob/master/images/Approximate%20Ratio%20Analysis%20Set%20S2.jpg">
-  
+</p>
+
+
 Feel free to check out the comparisons and reasonings [here](https://github.com/nmariya/Vertex-Cover/blob/master/report.pdf)
