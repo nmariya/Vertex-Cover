@@ -1,3 +1,23 @@
 # Vertex-Cover
-Installation of security cameras at traffic intersections
-This is a series of coding assignments that together builds a project to help the local Police department with the installation of security cameras at traffic intersections. This is designed as the optimization problem called Vertex-Cover problem, where the idea is to minimize the cameras that needs to be installed for effective monitoring.
+## Objective
+Our aim is to help the local Police department with the installation of security cameras at traffic intersections. This is designed as the optimization problem called **Minimum Vertex-Cover** problem, where the idea is to minimize the cameras that needs to be installed for effective monitoring.
+## Abstract
+In this project, we have implemented three algorithms to solve the minimum vertex cover problem. The first algorithm CNF-SAT-VC is a polynomial time reduction to a CNF-SAT problem and the other two algorithms, namely APPROX-VC-1 and APPROX-VC-2, are approximate approaches. To analyse the algorithms' effciency , we collected the results from each algorithm and compared their mean running time as well as the approximate ratio. In conclusion, based on the data collected, APPROX-VC-1 turned out to be the best algorithm to solve the vertex cover problem.
+## What is Minimum Vertex Cover
+The minimum vertex cover is an optimization problem and it can be solved in polynomial time. Hence it is an NP complete problem. A vertex cover of an undirected graph is basically a subset of its vertices that covers all the edges of the graph. As an example, the red vertices shown in the figure below are part of the vertex cover.
+
+<p align="center">
+<img src="https://github.com/nmariya/Vertex-Cover/blob/master/images/minimum%20vertex%20cover.jpg">
+  
+## Getting Started
+1. Install [CMake](https://cmake.org/download/) to build the executable file. 
+2. You also need the Minisat SAT solver. It is available in this [repository](https://github.com/agurfinkel/minisat)
+
+## Building and running the executables
+1. Once you clone this repository into you directory of choice, run the following code in the terminal while you are in that directory
+
+`mkdir build && cd build && cmake ../&&make`
+
+This will generate a "make" file inside the "build" folder and the "make" command will build the executable.
+2. Then type the following onto the terminal to execute the file
+
