@@ -7,11 +7,9 @@ In this project, we have implemented three algorithms to solve the minimum verte
 The minimum vertex cover is an optimization problem and it can be solved in polynomial time. Hence it is an NP complete problem. A vertex cover of an undirected graph is basically a subset of its vertices that covers all the edges of the graph. As an example, the red vertices shown in the figure below are part of the vertex cover.
 
 <p align="center">
-<img src="https://github.com/nmariya/Vertex-Cover/blob/master/images/minimumvertexcover.jpg">
+<img src="https://github.com/nmariya/Vertex-Cover/blob/master/images/minimumvertexcover.png">
 </p>
 
-
-![alt text](https://github.com/nmariya/Vertex-Cover/blob/master/images/minimumvertexcover.jpg)
 
 ## Getting Started
 1. Install [CMake](https://cmake.org/download/) to build the executable file. 
@@ -30,14 +28,14 @@ We have conducted a detailed analysis on the running time and approximate ratio 
 ##### Running Time Analysis
 We can compare the running time trends of APPROX-VC-1 and APPROX-VC-2. Both of them compute the results in far less time than CNF-SAT-VC, especially as V increases. APPROX-VC-1 takes more time because the algorithm searches for vertex with highest degree whereas APPROX-VC-2 has no conditions and randomly picks up the edges to add to the vertex cover. Hence time complexity of former is more than the latter.
 <p align="center">
-<img src="https://github.com/nmariya/Vertex-Cover/blob/master/images/RunningTimeAnalysisSetS2.jpg">
+<img src="https://github.com/nmariya/Vertex-Cover/blob/master/images/RunningTimeAnalysisSetS2.png">
 </p>
 
 
 ##### Approximate Ratio Analysis
 *Approximate ratio* is defined as the ratio of the size of computed vertex to the size of minimum sized vertex for the same graph. We know that CNF-SAT-VC computes the minimum sized or the optimum sized vertex cover, though not necessarily unique. So we find the approximate ratio of each algorithm with respect to the CNF-SAT-VC output. The approximate ratio of CNF-SAT-VC is 1, hence closer the approximate ratio of the approximate algorithms to 1, more optimum the result. The approximate ratio is inversely proportional to the correctness of the result i.e. greater the approximate ratio gives more inaccurate vertex cover.
 <p align="center">
-<img src="https://github.com/nmariya/Vertex-Cover/blob/master/images/ApproximateRatioAnalysisSetS2.jpg">
+<img src="https://github.com/nmariya/Vertex-Cover/blob/master/images/ApproximateRatioAnalysisSetS2.png">
 </p>
 
 
