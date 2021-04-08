@@ -10,7 +10,7 @@ The minimum vertex cover is an optimization problem and it can be solved in poly
 <img src="https://github.com/nmariya/Vertex-Cover/blob/master/images/MinimumVertexCover.png" />
 </p>
 
-
+![](https://github.com/nmariya/Vertex-Cover/blob/master/images/MinimumVertexCover.png)
 
 ## Getting Started
 1. Install [CMake](https://cmake.org/download/) to build the executable file. 
