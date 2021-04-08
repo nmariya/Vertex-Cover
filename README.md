@@ -11,6 +11,7 @@ The minimum vertex cover is an optimization problem and it can be solved in poly
 </p>
 
 
+
 ## Getting Started
 1. Install [CMake](https://cmake.org/download/) to build the executable file. 
 2. You also need the Minisat SAT solver. It is available in this [repository](https://github.com/agurfinkel/minisat)
@@ -34,6 +35,7 @@ We can compare the running time trends of APPROX-VC-1 and APPROX-VC-2. Both of t
 
 ##### Approximate Ratio Analysis
 *Approximate ratio* is defined as the ratio of the size of computed vertex to the size of minimum sized vertex for the same graph. We know that CNF-SAT-VC computes the minimum sized or the optimum sized vertex cover, though not necessarily unique. So we find the approximate ratio of each algorithm with respect to the CNF-SAT-VC output. The approximate ratio of CNF-SAT-VC is 1, hence closer the approximate ratio of the approximate algorithms to 1, more optimum the result. The approximate ratio is inversely proportional to the correctness of the result i.e. greater the approximate ratio gives more inaccurate vertex cover.
+
 <p align="center">
 <img src="https://github.com/nmariya/Vertex-Cover/blob/master/images/ApproximateRatioAnalysisSetS2.png">
 </p>
