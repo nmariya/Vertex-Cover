@@ -7,7 +7,7 @@ In this project, we have implemented three algorithms to solve the minimum verte
 The minimum vertex cover is an optimization problem and it can be solved in polynomial time. Hence it is an NP complete problem. A vertex cover of an undirected graph is basically a subset of its vertices that covers all the edges of the graph. As an example, the red vertices shown in the figure below are part of the vertex cover.
 
 <p align="center">
-<img src="https://github.com/nmariya/Vertex-Cover/blob/master/images/minimumvertexcover.png">
+<img src="https://github.com/nmariya/Vertex-Cover/blob/master/images/MinimumVertexCover.png">
 </p>
 
 
