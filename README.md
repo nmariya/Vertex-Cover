@@ -21,6 +21,12 @@ The minimum vertex cover is an optimization problem and it can be solved in poly
 `mkdir build && cd build && cmake ../&&make`
 
 This will generate a "make" file inside the "build" folder and the "make" command will build the executable.
+2. Then type the following onto the terminal to execute the file
+
+`./prj-ece650`
+<p align="center">
+<img src="./images/vc.gif">
+</p>
 
 #### Analysis
 We have conducted a detailed analysis on the running time and approximate ratio of the three algorithms.
