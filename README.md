@@ -25,7 +25,7 @@ This will generate a "make" file inside the "build" folder and the "make" comman
 
 `./prj-ece650`
 <p align="center">
-<img src="./images/vc.gif", width="200", height="200">
+<img src="./images/vc.gif", width="50x", height="50x">
 </p>
 
 #### Analysis
