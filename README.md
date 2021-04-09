@@ -7,7 +7,7 @@ In this project, we have implemented three algorithms to solve the minimum verte
 The minimum vertex cover is an optimization problem and it can be solved in polynomial time. Hence it is an NP complete problem. A vertex cover of an undirected graph is basically a subset of its vertices that covers all the edges of the graph. As an example, the red vertices shown in the figure below are part of the vertex cover.
 
 <p align="center">
-<img src="./images/MinimumVertexCover.png", width="250px"/>
+<img src="./images/MinimumVertexCover.png"/>
 </p>
 
 
@@ -25,7 +25,7 @@ This will generate a "make" file inside the "build" folder and the "make" comman
 
 `./prj-ece650`
 <p align="center">
-<img src="./images/vc.gif">
+<img src="./images/vc.gif", width="50", height="50">
 </p>
 
 #### Analysis
