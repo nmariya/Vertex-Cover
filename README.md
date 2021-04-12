@@ -1,6 +1,6 @@
 # Vertex-Cover
 ## Objective
-Our aim is to help the local Police department with the installation of security cameras at traffic intersections. This is designed as the optimization problem called **Minimum Vertex-Cover** problem, where the idea is to minimize the cameras that needs to be installed for effective monitoring.
+Our aim is to help the local Police department with the installation of security cameras at traffic intersections. This is designed as the optimization problem called **Minimum Vertex-Cover** problem, where the idea is to minimize the cameras that needs to be installed for effective monitoring. Please find the project [here](https://nmariya.github.io/Vertex-Cover/).
 ## Abstract
 In this project, we have implemented three algorithms to solve the minimum vertex cover problem. The first algorithm CNF-SAT-VC is a polynomial time reduction to a CNF-SAT problem and the other two algorithms, namely APPROX-VC-1 and APPROX-VC-2, are approximate approaches. To analyse the algorithms' effciency , we collected the results from each algorithm and compared their mean running time as well as the approximate ratio. In conclusion, based on the data collected, APPROX-VC-1 turned out to be the best algorithm to solve the vertex cover problem.
 ## What is Minimum Vertex Cover
