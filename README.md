@@ -24,9 +24,8 @@ This will generate a "make" file inside the "build" folder and the "make" comman
 2. Then type the following onto the terminal to execute the file
 
 `./prj-ece650`
-<p align="center">
-<img src="./images/vc.gif", width="750", height="750">
-</p>
+
+![]<img src="./images/vc.gif" width="750" height="450">
 
 #### Analysis
 We have conducted a detailed analysis on the running time and approximate ratio of the three algorithms.
